@@ -1,0 +1,210 @@
+// Here you can add other styles
+.error{
+    width: 100%;
+    display: block;
+    font-size: 12px;
+    color: #f00;
+}
+.inputError{
+    border-color:#f00;
+}
+
+.ligin-page-sec{
+    .card-group{
+        flex-wrap: wrap;
+        >div{
+            flex: auto;
+        }
+        .card{
+            width:100%;
+        }
+        form{
+            max-width: 450px;
+            margin: 0 auto;
+        }
+        .signin-card{
+            .card-body{
+                padding: 5px 15px;
+                font-size: 12px;;
+                p{margin: 0;}
+                a{
+                    color: #fff;
+                    margin-left: 5px;
+                }
+            }
+        }
+    }
+}
+
+.register-footer{
+    font-size: 12px;
+    text-align: center;
+    p{
+        margin: 0;
+    }
+}
+.customerTable{
+    margin-top: 20px;
+}
+
+.custom-table-sec{
+    .card{border: none;}
+    .card-body{
+        padding: 0;
+    }
+    table{
+        th{
+            background-color:#d9edf7;
+        }
+        th,td{
+            border:1px solid #ddd;
+        }
+        td{
+            .btn{padding: 0;}
+            .c-icon{
+                height: 21px !important;
+                width: 21px !important;
+            }
+        }
+        th:nth-child(1),td:nth-child(1){text-align:center;}
+        th:nth-child(2),td:nth-child(2){text-align:center;}
+        th:nth-child(3),td:nth-child(3){text-align:center;}
+        th:nth-child(4),td:nth-child(4){text-align:center;}
+    }
+}
+
+.custom-table2-sec{
+    .card{
+        border: none;
+        background: none;
+        margin-top: 10px;
+    }
+    .card-body{
+        padding: 0;        
+    }
+    table{
+        background-color: #fff;        
+        th{
+            background-color:#fcf8e3;
+            font-size: 13px;
+        }
+        th,td{
+            border:1px solid #ddd;
+        }
+        td{
+            font-size: 12px;
+        }
+    }
+    .blue-th{
+        table{
+            th{background-color:#d9edf7;}
+        }
+    }
+}
+
+.custom-edit-rout{
+    .card-body{
+        form{
+            max-width: 500px;
+            margin: 0 auto;
+            label{
+                width: 100%;
+                text-align: right;
+                font-weight: bold;
+            }
+            .btn-success
+                {width: 100%;
+            }
+        }
+    }
+}
+
+.barcode-table-dv{
+    table{
+        th{
+            font-size: 13px;
+            padding: 8px 10px;
+        }
+        td{
+            font-size: 12px;
+            vertical-align: middle;
+            padding: 5px 10px;
+        }
+    }
+}
+
+
+.img-circle {
+    border-radius: 50%;
+}
+
+img {
+    vertical-align: middle;
+}
+
+.navbar {
+    margin-bottom: 0;
+}
+.nav_title {
+    width: 230px;
+    float: left;
+    background: #2A3F54;
+    border-radius: 0;
+    height: 57px;
+}
+
+.nav_title{
+    padding: 10px 15px;
+    margin-bottom: 15px;
+    .fa{
+        font-size: 21px;
+        display: inline-block;
+        border: 2px solid #fff;
+        border-radius: 100%;
+        margin-right: 5px;
+        padding: 5px;
+    }
+    i,span{
+        vertical-align: middle;
+    }
+    span{
+        font-size: 20px;
+    }
+}
+
+.c-sidebar{
+    background-color: #2A3F54;
+}
+.profile{
+    display: flex;
+    padding: 10px 10px;
+    align-items: center;
+    .profile_pic{
+        width: 60px;
+        flex: none;
+        margin-right: 10px;
+    }
+    .profile_info{
+        font-size: 14px;
+        h2{
+            margin: 0;
+            line-height: 24px;
+            font-size: 16px;
+        }
+    }
+}
+.img-circle.profile_img {
+    background: #fff;
+    border: 1px solid rgba(52,73,94,.44);
+    padding: 4px;
+    max-width: 100%;
+}
+.c-header-nav{
+    .c-avatar{
+        p{
+            margin-bottom: 0;
+            margin-left: 5px;
+            color: #000;
+        }
+    }
+}
